@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "953397028999",
+    "firebase_url": "https://task-2337e.firebaseio.com",
+    "project_id": "task-2337e",
+    "storage_bucket": "task-2337e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953397028999:android:a35f937a9b339307",
+        "android_client_info": {
+          "package_name": "com.me.njerucyrus.uberjob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953397028999-j83s114jec77jk6njroa5lnbar2clbqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4wv2DQQy_sXFJRiX_h_GIIyoBWN9KQnc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
