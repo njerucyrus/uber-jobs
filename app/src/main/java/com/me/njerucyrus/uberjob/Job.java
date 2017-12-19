@@ -114,4 +114,7 @@ public class Job {
     public void setJobs(ArrayList<Object> jobs) {
         this.jobs = jobs;
     }
+    public void test(){
+
+    }
 }
