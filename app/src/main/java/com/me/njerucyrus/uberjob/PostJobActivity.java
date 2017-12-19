@@ -48,8 +48,10 @@ public class PostJobActivity extends AppCompatActivity {
                 postJob();
             }
         });
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     }
+
     public void postJob(){
         txtTitle = (EditText)findViewById(R.id.txtTitle);
         mTitle = txtTitle.getText().toString();

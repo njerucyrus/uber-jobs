@@ -2,6 +2,7 @@ package com.me.njerucyrus.uberjob;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 /**
  * Created by njerucyrus on 12/19/17.
@@ -17,7 +18,7 @@ public class Job {
     private Double lat;
     private Double lng;
     private String namedAddress;
-    private ArrayList<Object> jobs = new ArrayList<>();
+    private List <Job> jobs = new ArrayList<Job>();
     public Job(){}
 
     public Job(String title, String category, String description,
@@ -107,14 +108,11 @@ public class Job {
         this.namedAddress = namedAddress;
     }
 
-    public ArrayList<Object> getJobs() {
+    public List getJobs() {
         return jobs;
     }
 
-    public void setJobs(ArrayList<Object> jobs) {
+    public void setJobs(List jobs) {
         this.jobs = jobs;
-    }
-    public void test(){
-
     }
 }

@@ -87,6 +87,8 @@ public class MainActivity extends AppCompatActivity
             startActivity(new Intent(getApplicationContext(), PostJobActivity.class));
         } else if (id == R.id.nav_gallery) {
 
+            startActivity(new Intent(getApplicationContext(), JobListingActivity.class));
+
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
