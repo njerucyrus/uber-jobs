@@ -6,6 +6,7 @@ import java.util.List;
 
 /**
  * Created by njerucyrus on 12/19/17.
+ * tes
  */
 
 public class Job {
@@ -115,4 +116,12 @@ public class Job {
     public void setJobs(List jobs) {
         this.jobs = jobs;
     }
+
+    public void test(){
+
+    }
+
+
+    public  void willtest(){}
+
 }
