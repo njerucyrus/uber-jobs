@@ -19,6 +19,7 @@ public class Job {
     private String namedAddress;
     private ArrayList<Object> jobs = new ArrayList<>();
     public Job(){}
+
     public Job(String title, String category, String description,
                Date postedAt, String postedBy, Double price,
                Double lat, Double lng, String namedAddress
